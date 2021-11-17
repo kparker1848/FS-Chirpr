@@ -1,0 +1,9 @@
+# dependencies
+node_modules/
+
+# production bundles
+dist/
+public/js/app.js
+
+# dont want to push this to github! 
+.env
