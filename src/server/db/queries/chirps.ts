@@ -19,7 +19,7 @@ const all = () =>
     chirps.* 
     FROM chirps 
     JOIN users ON users.id = chirps.userid
-    WHERE users.id = ?`,
+    WHERE chirps.id = ?`,
     [chirpid]
     );
     

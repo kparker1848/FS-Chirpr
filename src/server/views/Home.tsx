@@ -26,7 +26,7 @@ const Home: React.FC<HomeProps> = props => {
                 <div className="col-12 mb-5">
                     <h1 className="text-center">Welcome to Chirpr!</h1>
                 </div>
-                <div className="shadow p-3 mb-5 bg-body rounded col-5">
+                <div className="p-3 mb-5 bg-body rounded col-8">
                     {chirps.map(chirp => (
                         <ChirpCard key = {`chirp-card-${chirp.id}`} chirp={chirp}/>
                     ))}

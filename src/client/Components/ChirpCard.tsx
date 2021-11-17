@@ -4,7 +4,7 @@ import type { IChirp } from '../../server/utils/types';
 const ChirpCard: React.FC<ChirpCardProps> = props => {
 
     return (
-        <div className="card">
+        <div className="card m-3 p-2">
         <div className="card-body">
             <p className="card-title fw-bold">{props.chirp.name}</p>
             <p className="card-text">{props.chirp.content}</p>
